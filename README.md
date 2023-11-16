@@ -15,7 +15,10 @@
 - Bcrypt  
 - Passport  
   - passport-local  
-  - passport-github2  
+  - passport-github2
+  - passport-jwt
+- Dotenv
+- Jsonwebtoken
 
 
 ### 💻 Instalación:  
