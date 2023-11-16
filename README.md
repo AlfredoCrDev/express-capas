@@ -1,7 +1,4 @@
-# Backend / Ecommerce
-
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/AlfredoCrDev/entregable01_backend)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AlfredoCrDev/entregable01_backend/main)
+# Backend / Servidor Por Capas
 
 ### ☑️ Dependencias:
 
@@ -14,8 +11,6 @@
 - Mongoose  
   - mongoose-paginate-v2  
   - connect-mongo  
-- Multer  
-- Socket.io  
 - Cookie-parser  
 - Bcrypt  
 - Passport  
@@ -27,12 +22,12 @@
 
 1. Clonar el repositorio: 
 ```shell
-git clone https://github.com/AlfredoCrDev/entregable01_backend
+git clone https://github.com/AlfredoCrDev/express-capas
 ```
 2. Posicionarte en el directorio del proyecto.
 
 ```shell
-cd /entregable01_backend
+cd /express-capas
 ```
 3. Instalación de todas las dependencias con:
 ```shell
@@ -75,14 +70,6 @@ Aplicacion debe abrirse en el puerto:
   - 🔃 PUT QUANTITY PRODUCT `/api/cart/:idCart/product/:idProduct` Actualiza la cantidad de un producto contenido en un carrito determinado
 - ❌ DELETE `/api/cart/:idCart`: Elimina un carrito indicandole su ID.
   - ❌ DELETE PRODUCT IN CART `/api/cart/:idCart/products/:idProduct`: Elimina un producto de un carrito, indicandole su ID.
-
-📥   **Subir archivos** 
-
-- 💾 SUBIR ARCHIVOS MEDIANTE MULTER `http://localhost:8080/upload`
-
-💬   **Enviar mensajes a la base de datos** 
-
-- 📣 ENVIAR MENSAJES A LA BASE DE DATOS `http://localhost:8080/messages`
 
 📖   **Lista de productos con HBS** 
 
@@ -147,47 +134,3 @@ Este proyecto está licenciado bajo la Licencia MIT.
 [![Node.JS](https://img.shields.io/badge/Node.JS-339933?style=for-the-badge&logo=node.js&logoColor=white&labelColor=101010)]()
 
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)]()
-
-CAPTURAS DE FUNCIONALIDAD
-
-Formulario del chat  
-![Formulario del chat](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/form%20chat.png)
-
-Confirmacion de envío  
-![Confirmacion de envío](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/cofirmacion%20chat.png)
-
-Mensaje en atlas  
-![Mensaje en atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/chat%20en%20atlas.png)
-
-Creacion del producto en Postman  
-![Creacion del producto en Postman](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/post%20producto.png)
-
-Producto en atlas  
-![Producto en atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/post%20en%20atlas.png)
-
-Modificacion de producto en Postman  
-![Modificacion de producto en Postman](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/put%20producto.png)
-
-Producto modificado en atlas  
-![Producto modificado en atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/put%20producto%20en%20atlas.png)
-
-Borrar Producto Postman  
-![Borrar Producto Postman](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/delete%20producto.png)
-
-Producto elimnado en atlas  
-![Producto elimnado en atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/delete%20producto%20en%20atlas.png)
-
-Crear carrito en Postman  
-![Crear carrito en Postman](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/post%20cart.png)
-
-Carrito creado en atlas  
-![Carrito creado en atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/post%20cart%20en%20atlas.png)
-
-Enviar producto a carrito especifico por ID - Postman  
-![Enviar producto a carrito especifico por ID - Postman](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/post%20producto%20en%20carrito.png)
-
-Producto en carrito del ID especificado - Atlas  
-![Producto en carrito del ID especificado - Atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/post%20producto%20en%20carrito%20en%20atlas.png)
-
-Carrito en atlas  
-![Carrito en atlas](https://github.com/AlfredoCrDev/entregable01_backend/blob/main/src/public/capturas/get%20cart.png)
